@@ -1,0 +1,101 @@
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  box-sizing: border-box;
+  font-family: normal;
+}
+
+html,
+body,
+.wrap {
+  width: 100%;
+  height: 100%;
+}
+
+html {
+  font-size: 13.33333vw;
+}
+
+.wrap {
+  display: flex;
+  flex-direction: column;
+}
+
+header {
+  width: 100%;
+  height: 1rem;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  border-bottom: thin solid #999;
+}
+
+header span {
+  height: 1rem;
+  line-height: 1rem;
+  font-size: .3rem;
+}
+
+.cur {
+  border-bottom: .04rem solid blue;
+}
+
+section {
+  border-top: .1rem solid #eee;
+}
+
+section ul {
+  padding: .1rem .2rem;
+  width: 100%;
+  height: auto;
+}
+
+section ul li {
+  width: 100%;
+  height: auto;
+  border: thin solid #ccc;
+  border-radius: .2rem;
+  margin-bottom: .2rem;
+}
+
+section ul li p {
+  margin-bottom: .1rem;
+}
+
+section ul li p:nth-of-type(1) {
+  width: 100%;
+  height: auto;
+  padding: .1rem;
+  background: pink;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+section ul li p:nth-of-type(1) b {
+  font-size: .35rem;
+  color: #fff;
+}
+
+section ul li p:nth-of-type(1) em {
+  font-size: .8rem;
+  color: #fff;
+}
+
+section ul li p:nth-of-type(1) span {
+  font-size: .5rem;
+  color: #fff;
+}
+
+section ul li p:nth-of-type(2) {
+  font-size: .2rem;
+  color: limegreen;
+  text-indent: .3rem;
+}
+
+section ul li p:nth-of-type(3) {
+  text-indent: .3rem;
+  font-size: .2rem;
+  color: #ccc;
+}
